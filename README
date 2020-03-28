@@ -5,12 +5,6 @@ GreenAnisotropic2D:
  Computes 2D linear elastic Green's functions and their gradients, up to order eight, for 
  anistropic, orthotropic, R0-orthotropic, square symmetric and isotropi media. 
 	
-Link to souce: 
- https://sites.google.com/site/nvenkov1/code-repository/GreenAnisotropic2D_0.91.tar.gz
-	
-Supporting document: 
- https://sites.google.com/site/nvenkov1/code-repository/GreenAnisotropic2D.pdf
-
 - - - - - - - - - - 
 AUTHOR: 
 - - - - - - - - - - 
@@ -21,7 +15,7 @@ contact info: nvenkov1@jhu.edu, venkovic@gmail.com.
 CONTENT DESCRIPTION:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
- C++ content wrapped into Python:
+ C++ wrapped in Python:
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  - isym	: Symmetry code
  - P0, P1, R0, R1, T0, T1, K : Polar invariants
@@ -40,7 +34,7 @@ CONTENT DESCRIPTION:
  - get_H() : Computes second complete Barnett-Lothe tensor integral
  - dnGi() : Computes Cartesian component with indices i of n-th gradient Green's function
 	
- C++ content not wrapped in Python:
+ C++ not wrapped in Python:
  - - - - - - - - - - - - - - - - - - - - - - - - 
  - dkN1_anisotropic() : Computes k-th derivative of first Barnett-Lothe integrand of an anisotropic medium
  - dkN2_anisotropic() : Computes k-th derivative of second Barnett-Lothe integrand of an anisotropic medium
@@ -99,17 +93,7 @@ EXAMPLE:
  >>> python example.py
 
 - - - - - - - - - -- 
-VERSIONS: 
+PRIOR VERSION HISTORY: 
 - - - - - - - - - --
- - 0.90 (May 31st, 2017) -- .
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
- - 0.91 (June 7th, 2017) 
-   -- Test file (test.py) and example (example.py) were added.
-   -- Supporting document (GreenAnistotropic2D.pdf) was added.
-   -- Corrected error in  set_sym() for isym==2.
-   -- Added isotropic and polar isotorpic cases, i.e. cases isym==4 and isym==5.
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
- - 0.92 (***)
-   -- Edit supporting document: verify sign problem with f in derivation of Stroh formalism
-   -- Edit supporting document: add something more before giving the expression for the displacement field in Barnett-Lothe formalism
-   -- Added compliance computation from polar representation
+ 0.90 (May 31st, 2017)
+ 0.91 (June 7th, 2017) 

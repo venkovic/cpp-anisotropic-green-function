@@ -10,6 +10,11 @@ email: venkovic@gmail.com.
 
 
 
+#### Supporting documents:
+
+- Main supporting document ([GreenAnisotropic2D.pdf](https://github.com/nvenkov1/green-anisotropic/blob/master/GreenAnisotropic2D.pdf)),
+- Description of the bottom-up dynamic implementation ([Bottom-up_DP_algo.pdf](https://github.com/nvenkov1/green-anisotropic/blob/master/Bottom-up_DP_algo.pdf)).
+
 #### Compiler and dependencies:
 
  - gcc.
@@ -86,5 +91,5 @@ $ python example.py
 
 #### Prior version history:
 
- -  0.90 (May 31st, 2017)
- -  0.91 (June 7th, 2017) 
+ -  0.90 (May 31st, 2017),
+ -  0.91 (June 7th, 2017).
